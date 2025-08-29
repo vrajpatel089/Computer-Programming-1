@@ -1,10 +1,9 @@
 #include<stdio.h>
 int main ()
 {
-    int Number,a;
+    int Number;
     printf("Enter Number Value:");
     scanf("%d",&Number);
-    a= Number/7.0;
     if (Number%7==0)
     {
         printf("The Number is divisible by 7");
@@ -17,3 +16,4 @@ int main ()
 return 0;
 
 }
+
