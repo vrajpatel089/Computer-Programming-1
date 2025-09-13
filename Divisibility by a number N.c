@@ -1,14 +1,15 @@
 #include<stdio.h>
 int main()
 {
-    int N,a;
+    int N,D;
     printf("Enter value of number : \n");
-    scanf("%d",&a);
-    printf("Enter value of N : \n");
     scanf("%d",&N);
-    if (a%N==0)
-        printf("The number is divisible by %d\n",N);
+    printf("Enter value of Divisor: \n");
+    scanf("%d",&D);
+    if (N%D==0)
+        printf("The number is divisible by %d\n",D);
     else
-        printf("The number is not divisible by %d\n",N);
+        printf("The number is not divisible by %d\n",D);
 
 }
+
